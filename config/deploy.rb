@@ -19,7 +19,7 @@ set :ssh_options, {
 }
 
 set :rbenv_type, :user
-set :rbenv_ruby, '2.2.3'
+set :rbenv_ruby, '2.2.2'
 set :default_env, path: '~/.rbenv/shims:~/.rbenv/bin:$PATH'
 
 # Default value for :scm is :git
