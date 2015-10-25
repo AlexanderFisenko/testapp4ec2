@@ -1,5 +1,5 @@
 app_path = "/testapp4ec2"
-worker_processes 10
+worker_processes 1
 
 user "ubuntu"
 
