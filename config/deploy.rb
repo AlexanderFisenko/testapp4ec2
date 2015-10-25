@@ -8,7 +8,7 @@ set :repo_url, 'git@github.com:AlexanderFisenko/testapp4ec2.git'
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, '/home/ubuntu/www/testapp4ec2'
+set :deploy_to, '/testapp4ec2'
 
 server '52.88.225.197', roles: [:app, :web, :db], user: 'ubuntu'
 
