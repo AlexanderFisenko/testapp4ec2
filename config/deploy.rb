@@ -10,7 +10,7 @@ set :repo_url, 'git@github.com:AlexanderFisenko/testapp4ec2.git'
 # Default deploy_to directory is /var/www/my_app_name
 set :deploy_to, '/testapp4ec2'
 
-server '52.88.225.197', roles: [:app, :web, :db], user: 'ubuntu'
+server '54.69.235.9', roles: [:app, :web, :db], user: 'ubuntu'
 
 set :ssh_options, {
   forward_agent: true,
@@ -19,7 +19,7 @@ set :ssh_options, {
 }
 
 set :rbenv_type, :user
-set :rbenv_ruby, '2.2.2'
+set :rbenv_ruby, '2.2.3'
 set :default_env, path: '~/.rbenv/shims:~/.rbenv/bin:$PATH'
 
 # Default value for :scm is :git
